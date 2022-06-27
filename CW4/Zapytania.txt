@@ -1,0 +1,61 @@
+
+1.
+MATCH path = ShortestPath((n:town {name:"Darjeeling"})-[*..5]->(p:peak {name:"Sandakphu"}))
+RETURN path
+
+2.
+MATCH path = ShortestPath((n:town {name:"Darjeeling"})-[*..5]->(p:peak {name:"Sandakphu"})) WHERE all(routes IN relationships(path) WHERE routes.winter="true")
+RETURN path
+
+3.	
+MATCH path = (n:town {name:"Darjeeling"})-[*..5]->(p:peak {name:"Sandakphu"})
+WITH path, REDUCE (dist=0, i IN relationships(path) | dist + i.distance) AS distance ORDER BY distance ASC
+RETURN distance, path
+
+4.	
+MATCH path=(n:town {name:"Darjeeling"})-[:twowheeler*..5]->(p) WHERE all(routes IN relationships(path) WHERE routes.summer="true")
+RETURN path
+
+5.
+MATCH (f:Flight)-[:ORIGIN]->(ap:Airport) WITH ap, count(f) as out RETURN ap, out ORDER BY out DESC
+
+
+6.
+MATCH path = (origin_ap:Airport {name:"LAX"})<-[r_origin:ORIGIN]-(f:Flight)-[r_dest:ORIGIN|DESTINATION*..5]->(dest_ap:Airport)
+WITH path, REDUCE(cost = 0, i IN [j IN NODES(path) WHERE 'Flight' IN LABELS(j)] |
+  cost + [(i)<-[:ASSIGN]-(Ticket) | Ticket.price][0]
+  ) as cost
+WHERE cost < 3000
+RETURN path, cost
+
+7.
+MATCH path = (origin_ap:Airport {name:"LAX"})<-[r_origin:ORIGIN]-(f:Flight)-[r_dest:ORIGIN|DESTINATION*..5]->(dest_ap:Airport {name:"DAY"})
+WITH path, REDUCE(cost = 0, i IN [j IN NODES(path) WHERE 'Flight' IN LABELS(j)] |
+  cost + [(i)<-[:ASSIGN]-(Ticket) | Ticket.price][0]
+  ) as cost
+WHERE cost < 3000
+RETURN path, cost
+ORDER BY cost ASC 
+
+
+8.
+MATCH path = (origin_ap:Airport {name:"LAX"})<-[r_origin:ORIGIN]-(f:Flight)-[r_dest:ORIGIN|DESTINATION*..5]->(dest_ap:Airport {name:"DAY"})
+WITH path, REDUCE(cost = 0, i IN [j IN NODES(path) WHERE 'Flight' IN LABELS(j)] |
+  cost + [(i)<-[:ASSIGN]-(Ticket) | Ticket.price][0]
+  ) as cost
+WHERE cost < 3000
+RETURN path, cost
+ORDER BY cost ASC 
+LIMIT 1
+
+9.
+  MATCH (x)<-[:ORIGIN|DESTINATION]-(f:Flight)-[:ASSIGN]-(t:Ticket)
+  WITH count(distinct x.name) AS Airport_number, f.airline AS Airline_name
+  RETURN Airline_name, Airport_number
+
+
+10.
+MATCH path = (origin_ap:Airport)-[:ORIGIN*]-(f:Flight)-[:DESTINATION*]-(a2:Airport)-[:ORIGIN*]-(f2:Flight)-[:DESTINATION*]->(dest_ap:Airport) WHERE origin_ap<>dest_ap AND a2<>dest_ap AND a2<>origin_ap AND f.date < f2.date
+WITH path, REDUCE(cost = 0, i IN [j IN NODES(path) WHERE 'Flight' IN LABELS(j)] |
+  cost + [(i)<-[:ASSIGN]-(Ticket) | Ticket.price][0]) as cost
+ RETURN path, cost ORDER BY cost ASC Limit 1
