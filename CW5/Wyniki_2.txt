@@ -1,0 +1,17 @@
+HTTP/1.1 200 OK
+X-Riak-Vclock: a85hYGBgzGDKBVI8J9gnVjqyf1SACCUy5rEyKCzSu8OXBQA=
+Vary: Accept-Encoding
+Server: MochiWeb/1.1 WebMachine/1.10.9 (cafe not found)
+Link: </buckets/s25871>; rel="up"
+Last-Modified: Mon, 27 Jun 2022 21:50:24 GMT
+ETag: "2hFaRpUxbUmSCtDJ8R5d1m"
+Date: Mon, 27 Jun 2022 21:53:25 GMT
+Content-Type: application/json
+Content-Length: 83
+
+{
+    "name" : "Antek",
+    "age" : 16,
+    "sex" : "Male",
+    "weight": 45,
+    }root@8b2cd59d8a2d:/var/lib/riak#

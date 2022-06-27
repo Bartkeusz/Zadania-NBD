@@ -1,0 +1,81 @@
+1.
+curl -i -XPUT -H 'Content-Type: application/json' -d '{
+    "name" : "Tomek",
+    "age" : 56,
+    "sex" : "Male",
+    "weight": 95,
+    }' http://172.17.0.3:8098/types/default/buckets/s25871/keys/tomek
+
+curl -i -XPUT -H 'Content-Type: application/json' -d '{
+    "name" : "Antek",
+    "age" : 16,
+    "sex" : "Male",
+    "weight": 45,
+    }' http://172.17.0.3:8098/types/default/buckets/s25871/keys/antek
+
+curl -i -XPUT -H 'Content-Type: application/json' -d '{
+    "name" : "Ania",
+    "age" : 29,
+    "sex" : "Female",
+    "weight": 55,
+    }' http://172.17.0.3:8098/types/default/buckets/s25871/keys/ania
+
+curl -i -XPUT -H 'Content-Type: application/json' -d '{
+    "name" : "Basia",
+    "age" : 90,
+    "sex" : "Female",
+    "weight": 185,
+    }' http://172.17.0.3:8098/types/default/buckets/s25871/keys/basia
+    
+curl -i -XPUT -H 'Content-Type: application/json' -d '{
+    "name" : "Bartek",
+    "age" : 25,
+    "sex" : "Male",
+    "weight": 85,
+    }' http://172.17.0.3:8098/types/default/buckets/s25871/keys/bartek
+
+
+2. 
+curl -i http://172.17.0.3:8098/types/default/buckets/s25871/keys/antek
+
+3. 
+curl -i -XPUT -H 'Content-Type: application/json' -d '{
+    "name" : "Antek",
+    "age" : 16,
+    "sex" : "Male",
+    "weight": 45,
+    "Date" : "01-01-1990"
+    }' http://172.17.0.3:8098/types/default/buckets/s25871/keys/antek/
+
+4. 
+curl -i -XPUT -H 'Content-Type: application/json' -d '{
+    "name" : "Antek",
+    "age" : 16,
+    "sex" : "Male",
+    "Date" : "01-01-1990"
+    }' http://172.17.0.3:8098/types/default/buckets/s25871/keys/antek/
+
+5. 
+curl -i -XPUT -H 'Content-Type: application/json' -d '{
+    "name" : "Antek",
+    "age" : 25,
+    "sex" : "Male",
+    "Date" : "01-01-1990"
+    }' http://172.17.0.3:8098/types/default/buckets/s25871/keys/antek/
+
+6. 
+curl -i -XDELETE http://172.17.0.3:8098/types/default/buckets/s25871/keys/antek
+
+7. 
+curl -i http://172.17.0.3:8098/types/default/buckets/s25871/keys/antek
+
+8. 
+curl -i -XPOST -H 'Content-Type: application/json' -d '{
+    "name" : "Pawel",
+    }' http://172.17.0.3:8098/types/default/buckets/s25871/keys/
+
+9. 
+curl -i http://172.17.0.3:8098/types/default/buckets/s25871/keys/NcZVKySiBClHxXJArRPU4J15E3r
+
+10. 
+curl -i -XDELETE http://172.17.0.3:8098/types/default/buckets/s25871/keys/NcZVKySiBClHxXJArRPU4J15E3r

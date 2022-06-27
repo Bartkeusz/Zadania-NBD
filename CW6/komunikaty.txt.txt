@@ -1,0 +1,6 @@
+Document added!
+('downloaded document: ', {u'test_value': 5, u'date': u'19-03-1999', u'name': u'Python'})
+Document modified and stored successfully
+('Modified document: ', {u'test_value': 10, u'date': u'19-03-1999', u'name': u'Python'})
+document deleted!
+('Attempt to print download deleted document: ', None)

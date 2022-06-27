@@ -1,0 +1,14 @@
+HTTP/1.1 200 OK
+X-Riak-Vclock: a85hYGBgzGDKBVI8J9gnVjqyv/eACCUy5rEyvF6sd4cvCwA=
+Vary: Accept-Encoding
+Server: MochiWeb/1.1 WebMachine/1.10.9 (cafe not found)
+Link: </buckets/s25871>; rel="up"
+Last-Modified: Mon, 27 Jun 2022 21:58:03 GMT
+ETag: "7DouOC9KdTS7V9hOOSOJnU"
+Date: Mon, 27 Jun 2022 21:59:20 GMT
+Content-Type: application/json
+Content-Length: 29
+
+{
+    "name" : "Pawel",
+    }root@8b2cd59d8a2d:/var/lib/riak#
