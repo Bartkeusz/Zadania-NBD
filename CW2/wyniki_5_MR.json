@@ -1,0 +1,520 @@
+MongoDB shell version v5.0.9
+connecting to: mongodb://127.0.0.1:27017/nbd?compressors=disabled&gssapiServiceName=mongodb
+Implicit session: session { "id" : UUID("35d036bd-bbd3-45dd-92b9-ea521ccb46c3") }
+MongoDB server version: 5.0.9
+{
+	"results" : [
+		{
+			"_id" : "NPR",
+			"value" : {
+				"total_balance_per_currency" : 5792.26,
+				"avg_balance_per_currency" : 5792.26
+			}
+		},
+		{
+			"_id" : "CAD",
+			"value" : {
+				"total_balance_per_currency" : 58375.6,
+				"avg_balance_per_currency" : 5306.872727272727
+			}
+		},
+		{
+			"_id" : "MKD",
+			"value" : {
+				"total_balance_per_currency" : 3835.05,
+				"avg_balance_per_currency" : 3835.05
+			}
+		},
+		{
+			"_id" : "HNL",
+			"value" : {
+				"total_balance_per_currency" : 16514.59,
+				"avg_balance_per_currency" : 5504.863333333334
+			}
+		},
+		{
+			"_id" : "MAD",
+			"value" : {
+				"total_balance_per_currency" : 3818.85,
+				"avg_balance_per_currency" : 3818.85
+			}
+		},
+		{
+			"_id" : "TZS",
+			"value" : {
+				"total_balance_per_currency" : 7052.370000000001,
+				"avg_balance_per_currency" : 3526.1850000000004
+			}
+		},
+		{
+			"_id" : "VEF",
+			"value" : {
+				"total_balance_per_currency" : 8333.28,
+				"avg_balance_per_currency" : 4166.64
+			}
+		},
+		{
+			"_id" : "VUV",
+			"value" : {
+				"total_balance_per_currency" : 6418.27,
+				"avg_balance_per_currency" : 6418.27
+			}
+		},
+		{
+			"_id" : "GBP",
+			"value" : {
+				"total_balance_per_currency" : 6149.19,
+				"avg_balance_per_currency" : 6149.19
+			}
+		},
+		{
+			"_id" : "XPF",
+			"value" : {
+				"total_balance_per_currency" : 4759.07,
+				"avg_balance_per_currency" : 4759.07
+			}
+		},
+		{
+			"_id" : "BGN",
+			"value" : {
+				"total_balance_per_currency" : 21200.88,
+				"avg_balance_per_currency" : 5300.22
+			}
+		},
+		{
+			"_id" : "RUB",
+			"value" : {
+				"total_balance_per_currency" : 119749.15,
+				"avg_balance_per_currency" : 4989.547916666666
+			}
+		},
+		{
+			"_id" : "MGA",
+			"value" : {
+				"total_balance_per_currency" : 14560.99,
+				"avg_balance_per_currency" : 4853.663333333333
+			}
+		},
+		{
+			"_id" : "MNT",
+			"value" : {
+				"total_balance_per_currency" : 21715.61,
+				"avg_balance_per_currency" : 5428.9025
+			}
+		},
+		{
+			"_id" : "MXN",
+			"value" : {
+				"total_balance_per_currency" : 50228.99999999999,
+				"avg_balance_per_currency" : 5022.9
+			}
+		},
+		{
+			"_id" : "ZAR",
+			"value" : {
+				"total_balance_per_currency" : 11790.92,
+				"avg_balance_per_currency" : 3930.306666666667
+			}
+		},
+		{
+			"_id" : "VND",
+			"value" : {
+				"total_balance_per_currency" : 36160.259999999995,
+				"avg_balance_per_currency" : 4520.032499999999
+			}
+		},
+		{
+			"_id" : "AMD",
+			"value" : {
+				"total_balance_per_currency" : 24609.33,
+				"avg_balance_per_currency" : 4921.866
+			}
+		},
+		{
+			"_id" : "MMK",
+			"value" : {
+				"total_balance_per_currency" : 4629.42,
+				"avg_balance_per_currency" : 4629.42
+			}
+		},
+		{
+			"_id" : "YER",
+			"value" : {
+				"total_balance_per_currency" : 13712.5,
+				"avg_balance_per_currency" : 4570.833333333333
+			}
+		},
+		{
+			"_id" : "KYD",
+			"value" : {
+				"total_balance_per_currency" : 3760.89,
+				"avg_balance_per_currency" : 3760.89
+			}
+		},
+		{
+			"_id" : "RWF",
+			"value" : {
+				"total_balance_per_currency" : 4632.88,
+				"avg_balance_per_currency" : 4632.88
+			}
+		},
+		{
+			"_id" : "MYR",
+			"value" : {
+				"total_balance_per_currency" : 4781.12,
+				"avg_balance_per_currency" : 4781.12
+			}
+		},
+		{
+			"_id" : "RSD",
+			"value" : {
+				"total_balance_per_currency" : 4276.56,
+				"avg_balance_per_currency" : 4276.56
+			}
+		},
+		{
+			"_id" : "EGP",
+			"value" : {
+				"total_balance_per_currency" : 5579.3,
+				"avg_balance_per_currency" : 5579.3
+			}
+		},
+		{
+			"_id" : "EUR",
+			"value" : {
+				"total_balance_per_currency" : 245091.46999999994,
+				"avg_balance_per_currency" : 4901.829399999999
+			}
+		},
+		{
+			"_id" : "NOK",
+			"value" : {
+				"total_balance_per_currency" : 4773.66,
+				"avg_balance_per_currency" : 4773.66
+			}
+		},
+		{
+			"_id" : "CDF",
+			"value" : {
+				"total_balance_per_currency" : 12228.8,
+				"avg_balance_per_currency" : 6114.4
+			}
+		},
+		{
+			"_id" : "AFN",
+			"value" : {
+				"total_balance_per_currency" : 16755.49,
+				"avg_balance_per_currency" : 5585.163333333334
+			}
+		},
+		{
+			"_id" : "ZWL",
+			"value" : {
+				"total_balance_per_currency" : 5792.17,
+				"avg_balance_per_currency" : 5792.17
+			}
+		},
+		{
+			"_id" : "ETB",
+			"value" : {
+				"total_balance_per_currency" : 5436.11,
+				"avg_balance_per_currency" : 5436.11
+			}
+		},
+		{
+			"_id" : "TJS",
+			"value" : {
+				"total_balance_per_currency" : 4087.71,
+				"avg_balance_per_currency" : 4087.71
+			}
+		},
+		{
+			"_id" : "BWP",
+			"value" : {
+				"total_balance_per_currency" : 4076.29,
+				"avg_balance_per_currency" : 4076.29
+			}
+		},
+		{
+			"_id" : "UAH",
+			"value" : {
+				"total_balance_per_currency" : 40471.840000000004,
+				"avg_balance_per_currency" : 5058.9800000000005
+			}
+		},
+		{
+			"_id" : "NZD",
+			"value" : {
+				"total_balance_per_currency" : 5328.46,
+				"avg_balance_per_currency" : 5328.46
+			}
+		},
+		{
+			"_id" : "SRD",
+			"value" : {
+				"total_balance_per_currency" : 5286.68,
+				"avg_balance_per_currency" : 5286.68
+			}
+		},
+		{
+			"_id" : "IDR",
+			"value" : {
+				"total_balance_per_currency" : 323922.59,
+				"avg_balance_per_currency" : 4907.918030303031
+			}
+		},
+		{
+			"_id" : "USD",
+			"value" : {
+				"total_balance_per_currency" : 74680.98000000001,
+				"avg_balance_per_currency" : 4978.732000000001
+			}
+		},
+		{
+			"_id" : "LYD",
+			"value" : {
+				"total_balance_per_currency" : 8764.99,
+				"avg_balance_per_currency" : 4382.495
+			}
+		},
+		{
+			"_id" : "UZS",
+			"value" : {
+				"total_balance_per_currency" : 3573.03,
+				"avg_balance_per_currency" : 3573.03
+			}
+		},
+		{
+			"_id" : "NGN",
+			"value" : {
+				"total_balance_per_currency" : 24946.23,
+				"avg_balance_per_currency" : 4157.705
+			}
+		},
+		{
+			"_id" : "PLN",
+			"value" : {
+				"total_balance_per_currency" : 90770.77999999998,
+				"avg_balance_per_currency" : 5042.82111111111
+			}
+		},
+		{
+			"_id" : "CZK",
+			"value" : {
+				"total_balance_per_currency" : 37156.420000000006,
+				"avg_balance_per_currency" : 4644.552500000001
+			}
+		},
+		{
+			"_id" : "HRK",
+			"value" : {
+				"total_balance_per_currency" : 24354.82,
+				"avg_balance_per_currency" : 4870.964
+			}
+		},
+		{
+			"_id" : "IRR",
+			"value" : {
+				"total_balance_per_currency" : 26504.24,
+				"avg_balance_per_currency" : 4417.373333333334
+			}
+		},
+		{
+			"_id" : "IQD",
+			"value" : {
+				"total_balance_per_currency" : 4269.39,
+				"avg_balance_per_currency" : 4269.39
+			}
+		},
+		{
+			"_id" : "PYG",
+			"value" : {
+				"total_balance_per_currency" : 4874.69,
+				"avg_balance_per_currency" : 4874.69
+			}
+		},
+		{
+			"_id" : "ARS",
+			"value" : {
+				"total_balance_per_currency" : 23242,
+				"avg_balance_per_currency" : 4648.4
+			}
+		},
+		{
+			"_id" : "ALL",
+			"value" : {
+				"total_balance_per_currency" : 3325.48,
+				"avg_balance_per_currency" : 3325.48
+			}
+		},
+		{
+			"_id" : "KZT",
+			"value" : {
+				"total_balance_per_currency" : 3788.95,
+				"avg_balance_per_currency" : 3788.95
+			}
+		},
+		{
+			"_id" : "CLP",
+			"value" : {
+				"total_balance_per_currency" : 21008.95,
+				"avg_balance_per_currency" : 5252.2375
+			}
+		},
+		{
+			"_id" : "JPY",
+			"value" : {
+				"total_balance_per_currency" : 60944.74,
+				"avg_balance_per_currency" : 5078.7283333333335
+			}
+		},
+		{
+			"_id" : "BYR",
+			"value" : {
+				"total_balance_per_currency" : 5095.79,
+				"avg_balance_per_currency" : 5095.79
+			}
+		},
+		{
+			"_id" : "ISK",
+			"value" : {
+				"total_balance_per_currency" : 4316.41,
+				"avg_balance_per_currency" : 4316.41
+			}
+		},
+		{
+			"_id" : "BRL",
+			"value" : {
+				"total_balance_per_currency" : 49632.020000000004,
+				"avg_balance_per_currency" : 4512.001818181819
+			}
+		},
+		{
+			"_id" : "COP",
+			"value" : {
+				"total_balance_per_currency" : 19746.73,
+				"avg_balance_per_currency" : 4936.6825
+			}
+		},
+		{
+			"_id" : "NIO",
+			"value" : {
+				"total_balance_per_currency" : 9971.28,
+				"avg_balance_per_currency" : 4985.64
+			}
+		},
+		{
+			"_id" : "BOB",
+			"value" : {
+				"total_balance_per_currency" : 5263.3,
+				"avg_balance_per_currency" : 5263.3
+			}
+		},
+		{
+			"_id" : "MWK",
+			"value" : {
+				"total_balance_per_currency" : 3574.42,
+				"avg_balance_per_currency" : 3574.42
+			}
+		},
+		{
+			"_id" : "SEK",
+			"value" : {
+				"total_balance_per_currency" : 70840.19,
+				"avg_balance_per_currency" : 5060.013571428572
+			}
+		},
+		{
+			"_id" : "CNY",
+			"value" : {
+				"total_balance_per_currency" : 470700.38000000006,
+				"avg_balance_per_currency" : 4954.740842105264
+			}
+		},
+		{
+			"_id" : "CUP",
+			"value" : {
+				"total_balance_per_currency" : 15017.34,
+				"avg_balance_per_currency" : 5005.78
+			}
+		},
+		{
+			"_id" : "XOF",
+			"value" : {
+				"total_balance_per_currency" : 17882.05,
+				"avg_balance_per_currency" : 5960.683333333333
+			}
+		},
+		{
+			"_id" : "THB",
+			"value" : {
+				"total_balance_per_currency" : 23021.96,
+				"avg_balance_per_currency" : 4604.392
+			}
+		},
+		{
+			"_id" : "GTQ",
+			"value" : {
+				"total_balance_per_currency" : 5806.3,
+				"avg_balance_per_currency" : 5806.3
+			}
+		},
+		{
+			"_id" : "KRW",
+			"value" : {
+				"total_balance_per_currency" : 13379.82,
+				"avg_balance_per_currency" : 6689.91
+			}
+		},
+		{
+			"_id" : "PHP",
+			"value" : {
+				"total_balance_per_currency" : 118606.27999999998,
+				"avg_balance_per_currency" : 4941.928333333332
+			}
+		},
+		{
+			"_id" : "PKR",
+			"value" : {
+				"total_balance_per_currency" : 18938,
+				"avg_balance_per_currency" : 4734.5
+			}
+		},
+		{
+			"_id" : "ZMW",
+			"value" : {
+				"total_balance_per_currency" : 5569.56,
+				"avg_balance_per_currency" : 5569.56
+			}
+		},
+		{
+			"_id" : "XAF",
+			"value" : {
+				"total_balance_per_currency" : 14094.660000000002,
+				"avg_balance_per_currency" : 4698.22
+			}
+		},
+		{
+			"_id" : "ILS",
+			"value" : {
+				"total_balance_per_currency" : 16295.489999999998,
+				"avg_balance_per_currency" : 5431.829999999999
+			}
+		},
+		{
+			"_id" : "DOP",
+			"value" : {
+				"total_balance_per_currency" : 20674.739999999998,
+				"avg_balance_per_currency" : 5168.6849999999995
+			}
+		},
+		{
+			"_id" : "PEN",
+			"value" : {
+				"total_balance_per_currency" : 18644.94,
+				"avg_balance_per_currency" : 4661.235
+			}
+		}
+	],
+	"ok" : 1
+}

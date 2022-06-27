@@ -1,0 +1,309 @@
+MongoDB shell version v5.0.9
+connecting to: mongodb://127.0.0.1:27017/nbd?compressors=disabled&gssapiServiceName=mongodb
+Implicit session: session { "id" : UUID("37cfd3c7-3685-48d7-b060-c48c8bc277c2") }
+MongoDB server version: 5.0.9
+[
+	{
+		"_id" : "Accounting Assistant II"
+	},
+	{
+		"_id" : "Account Coordinator"
+	},
+	{
+		"_id" : "Human Resources Assistant II"
+	},
+	{
+		"_id" : "Budget/Accounting Analyst II"
+	},
+	{
+		"_id" : "Geologist II"
+	},
+	{
+		"_id" : "Budget/Accounting Analyst I"
+	},
+	{
+		"_id" : "Human Resources Assistant IV"
+	},
+	{
+		"_id" : "Dental Hygienist"
+	},
+	{
+		"_id" : "Account Representative IV"
+	},
+	{
+		"_id" : "Statistician IV"
+	},
+	{
+		"_id" : "Statistician II"
+	},
+	{
+		"_id" : "Web Developer IV"
+	},
+	{
+		"_id" : "Web Designer I"
+	},
+	{
+		"_id" : "Account Representative I"
+	},
+	{
+		"_id" : "Human Resources Assistant I"
+	},
+	{
+		"_id" : "Nurse Practicioner"
+	},
+	{
+		"_id" : "Registered Nurse"
+	},
+	{
+		"_id" : "Developer III"
+	},
+	{
+		"_id" : "Engineer IV"
+	},
+	{
+		"_id" : "Electrical Engineer"
+	},
+	{
+		"_id" : "Geologist III"
+	},
+	{
+		"_id" : "Web Designer II"
+	},
+	{
+		"_id" : "Pharmacist"
+	},
+	{
+		"_id" : "DataOps"
+	},
+	{
+		"_id" : "Structural Analysis Engineer"
+	},
+	{
+		"_id" : "Design Engineer"
+	},
+	{
+		"_id" : "Accounting Assistant I"
+	},
+	{
+		"_id" : "Staff Accountant II"
+	},
+	{
+		"_id" : "Health Coach I"
+	},
+	{
+		"_id" : "Database Administrator IV"
+	},
+	{
+		"_id" : "Office Assistant I"
+	},
+	{
+		"_id" : "Accountant II"
+	},
+	{
+		"_id" : "Business Systems Development Analyst"
+	},
+	{
+		"_id" : "Marketing Assistant"
+	},
+	{
+		"_id" : "Help Desk Technician"
+	},
+	{
+		"_id" : "Budget/Accounting Analyst III"
+	},
+	{
+		"_id" : "Accounting Assistant III"
+	},
+	{
+		"_id" : "Web Developer I"
+	},
+	{
+		"_id" : "Financial Analyst"
+	},
+	{
+		"_id" : "Occupational Therapist"
+	},
+	{
+		"_id" : "Web Developer III"
+	},
+	{
+		"_id" : "Project Manager"
+	},
+	{
+		"_id" : "Software Test Engineer IV"
+	},
+	{
+		"_id" : "Media Manager II"
+	},
+	{
+		"_id" : "Software Engineer IV"
+	},
+	{
+		"_id" : "Programmer II"
+	},
+	{
+		"_id" : "Physical Therapy Assistant"
+	},
+	{
+		"_id" : "Programmer Analyst III"
+	},
+	{
+		"_id" : "Account Representative III"
+	},
+	{
+		"_id" : "Engineer I"
+	},
+	{
+		"_id" : "Software Engineer II"
+	},
+	{
+		"_id" : "Health Coach IV"
+	},
+	{
+		"_id" : "Software Engineer III"
+	},
+	{
+		"_id" : "Assistant Manager"
+	},
+	{
+		"_id" : "Director of Sales"
+	},
+	{
+		"_id" : "Safety Technician II"
+	},
+	{
+		"_id" : "Social Worker"
+	},
+	{
+		"_id" : "Automation Specialist II"
+	},
+	{
+		"_id" : "Media Manager IV"
+	},
+	{
+		"_id" : "Programmer I"
+	},
+	{
+		"_id" : "Nuclear Power Engineer"
+	},
+	{
+		"_id" : "Analog Circuit Design manager"
+	},
+	{
+		"_id" : "Technical Writer"
+	},
+	{
+		"_id" : "Safety Technician I"
+	},
+	{
+		"_id" : "Cost Accountant"
+	},
+	{
+		"_id" : "Senior Sales Associate"
+	},
+	{
+		"_id" : "Health Coach III"
+	},
+	{
+		"_id" : "Developer II"
+	},
+	{
+		"_id" : "Staff Accountant III"
+	},
+	{
+		"_id" : "Product Engineer"
+	},
+	{
+		"_id" : "Geologist I"
+	},
+	{
+		"_id" : "VP Marketing"
+	},
+	{
+		"_id" : "Database Administrator III"
+	},
+	{
+		"_id" : "Biostatistician IV"
+	},
+	{
+		"_id" : "Staff Accountant IV"
+	},
+	{
+		"_id" : "Senior Developer"
+	},
+	{
+		"_id" : "Help Desk Operator"
+	},
+	{
+		"_id" : "VP Product Management"
+	},
+	{
+		"_id" : "Software Consultant"
+	},
+	{
+		"_id" : "Environmental Specialist"
+	},
+	{
+		"_id" : "Programmer Analyst IV"
+	},
+	{
+		"_id" : "Staff Accountant I"
+	},
+	{
+		"_id" : "Community Outreach Specialist"
+	},
+	{
+		"_id" : "Human Resources Assistant III"
+	},
+	{
+		"_id" : "Editor"
+	},
+	{
+		"_id" : "Biostatistician III"
+	},
+	{
+		"_id" : "Librarian"
+	},
+	{
+		"_id" : "Graphic Designer"
+	},
+	{
+		"_id" : "Computer Systems Analyst III"
+	},
+	{
+		"_id" : "Chemical Engineer"
+	},
+	{
+		"_id" : "Quality Engineer"
+	},
+	{
+		"_id" : "Developer IV"
+	},
+	{
+		"_id" : "Engineer II"
+	},
+	{
+		"_id" : "Senior Cost Accountant"
+	},
+	{
+		"_id" : "Desktop Support Technician"
+	},
+	{
+		"_id" : "Research Associate"
+	},
+	{
+		"_id" : "Systems Administrator III"
+	},
+	{
+		"_id" : "Programmer Analyst II"
+	},
+	{
+		"_id" : "Computer Systems Analyst II"
+	},
+	{
+		"_id" : "Research Assistant I"
+	},
+	{
+		"_id" : "Structural Engineer"
+	}
+]
